@@ -28,9 +28,7 @@
     <?php versioned_stylesheet($GLOBALS["TEMPLATE_RELATIVE_URL"]."html5-boilerplate/css/normalize.css") ?>
     <?php versioned_stylesheet($GLOBALS["TEMPLATE_RELATIVE_URL"]."html5-boilerplate/css/main.css") ?>
     
-    <!-- Wordpress Templates require a style.css in theme root directory -->
-    <?php versioned_stylesheet($GLOBALS["TEMPLATE_RELATIVE_URL"]."style.css") ?>
-    
+ 
     <!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects -->
     <?php versioned_javascript($GLOBALS["TEMPLATE_RELATIVE_URL"]."html5-boilerplate/js/vendor/modernizr-2.6.1.min.js") ?>
 
@@ -40,6 +38,9 @@
 	<!-- Twitter bootstrap and Font Awesome -->
 	<?php versioned_stylesheet($GLOBALS["TEMPLATE_RELATIVE_URL"]."bootstrap/css/bootstrap.css") ?>
 	<?php versioned_stylesheet($GLOBALS["TEMPLATE_RELATIVE_URL"]."FontAwesome/css/font-awesome.css") ?>
+
+    <!-- Wordpress Templates require a style.css in theme root directory -->
+    <?php versioned_stylesheet($GLOBALS["TEMPLATE_RELATIVE_URL"]."style.css") ?>
 
     <?php wp_head(); ?>
 
