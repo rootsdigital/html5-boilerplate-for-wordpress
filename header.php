@@ -37,6 +37,10 @@
     <!-- Wordpress Head Items -->
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 
+	<!-- Twitter bootstrap and Font Awesome -->
+	<?php versioned_stylesheet($GLOBALS["TEMPLATE_RELATIVE_URL"]."bootstrap/css/bootstrap.css") ?>
+	<?php versioned_stylesheet($GLOBALS["TEMPLATE_RELATIVE_URL"]."FontAwesome/css/font-awesome.css") ?>
+
     <?php wp_head(); ?>
 
 </head>
